@@ -29,7 +29,7 @@ class popupWindow(object):
 
     def cleanup(self):
         self.value = self.e.get()
-        access = 'yash0707mlg'
+        access = 'password1234'
 
         if self.value == access:
             self.loop = True
